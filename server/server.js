@@ -21,24 +21,26 @@ validator.checkSetup();
 //import libraries needed for the webserver to work!
 const http = require("http");
 const express = require("express"); // backend framework for our node server.
-const session = require("express-session"); // library that stores info about each connected user
-const mongoose = require("mongoose"); // library to connect to MongoDB
+
+//const session = require("express-session"); // library that stores info about each connected user
+//const mongoose = require("mongoose"); // library to connect to MongoDB
+
 const path = require("path"); // provide utilities for working with file and directory paths
 
 const api = require("./api");
-const auth = require("./auth");
+//const auth = require("./auth");
 
 // socket stuff
-const socketManager = require("./server-socket");
+//const socketManager = require("./server-socket");
 
 // Server configuration below
 // TODO change connection URL after setting up your team database
-const mongoConnectionURL = "FILL ME IN";
+//const mongoConnectionURL = "FILL ME IN";
 // TODO change database name to the name you chose
-const databaseName = "FILL ME IN";
+//const databaseName = "FILL ME IN";
 
 // connect to mongodb
-mongoose
+/* mongoose
   .connect(mongoConnectionURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -46,7 +48,7 @@ mongoose
   })
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log(`Error connecting to MongoDB: ${err}`));
-
+ */
 // create a new express server
 const app = express();
 app.use(validator.checkRoutes);
@@ -55,16 +57,16 @@ app.use(validator.checkRoutes);
 app.use(express.json());
 
 // set up a session, which will persist login data across requests
-app.use(
+/* app.use(
   session({
     secret: "session-secret",
     resave: false,
     saveUninitialized: false,
   })
-);
+); */
 
 // this checks if the user is logged in, and populates "req.user"
-app.use(auth.populateCurrentUser);
+//app.use(auth.populateCurrentUser);
 
 // connect user-defined routes
 app.use("/api", api);
@@ -97,7 +99,7 @@ app.use((err, req, res, next) => {
 // hardcode port to 3000 for now
 const port = 3000;
 const server = http.Server(app);
-socketManager.init(server);
+//socketManager.init(server);
 
 server.listen(port, () => {
   console.log(`Server running on port: ${port}`);
