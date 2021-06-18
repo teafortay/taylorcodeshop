@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //import GoogleLogin, { GoogleLogout } from "react-google-login";
 
 import "../../utilities.css";
-import "./Skeleton.css";
+import "./Home.css";
 
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
 //const GOOGLE_CLIENT_ID = "121479668229-t5j82jrbi9oejh7c8avada226s75bopn.apps.googleusercontent.com";
@@ -22,7 +22,7 @@ import "./Skeleton.css";
     onFailure={(err) => console.log(err)}
   />
 )} */
-class Skeleton extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
     // Initialize Default State
@@ -59,4 +59,4 @@ class Skeleton extends Component {
   }
 }
 
-export default Skeleton;
+export default Home;
