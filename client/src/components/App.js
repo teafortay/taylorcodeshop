@@ -5,7 +5,7 @@ import Skeleton from "./pages/Skeleton.js";
 
 import "../utilities.css";
 
-import { socket } from "../client-socket.js";
+//import { socket } from "../client-socket.js";
 
 import { get, post } from "../utilities";
 
@@ -17,42 +17,44 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      userId: undefined,
+      //userId: undefined,
     };
   }
 
   componentDidMount() {
-    get("/api/whoami").then((user) => {
+/*     get("/api/whoami").then((user) => {
       if (user._id) {
         // they are registed in the database, and currently logged in.
         this.setState({ userId: user._id });
       }
-    });
+    }); */
   }
 
-  handleLogin = (res) => {
+  /* handleLogin = (res) => {
     console.log(`Logged in as ${res.profileObj.name}`);
     const userToken = res.tokenObj.id_token;
     post("/api/login", { token: userToken }).then((user) => {
       this.setState({ userId: user._id });
       post("/api/initsocket", { socketid: socket.id });
     });
-  };
+  }; */
 
-  handleLogout = () => {
+  /* handleLogout = () => {
     this.setState({ userId: undefined });
     post("/api/logout");
-  };
-
+  }; */
+  //in render, passed in to skeleton:
+  /*        ßhandleLogin={this.handleLogin}
+            handleLogout={this.handleLogout}
+            userId={this.state.userId}
+ */
   render() {
     return (
       <>
         <Router>
           <Skeleton
             path="/"
-            handleLogin={this.handleLogin}
-            handleLogout={this.handleLogout}
-            userId={this.state.userId}
+            
           />
           <NotFound default />
         </Router>
