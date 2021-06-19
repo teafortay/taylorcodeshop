@@ -3,6 +3,9 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js"
+import Resume from "./pages/Resume.js";
+import Projects from "./pages/Projects.js";
+import Contact from "./pages/Contact.js";
 
 import "../utilities.css";
 
@@ -40,6 +43,15 @@ class App extends Component {
           />
           <About
           path="/about"
+          />
+          <Resume
+          path="/resume"
+          />
+          <Projects
+          path="/projects"
+          />
+          <Contact
+          path="/contact"
           />
           <NotFound default />
         </Router>
