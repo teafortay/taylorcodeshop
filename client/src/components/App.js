@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
+import About from "./pages/About.js"
 
 import "../utilities.css";
 
@@ -30,31 +31,15 @@ class App extends Component {
     }); */
   }
 
-  /* handleLogin = (res) => {
-    console.log(`Logged in as ${res.profileObj.name}`);
-    const userToken = res.tokenObj.id_token;
-    post("/api/login", { token: userToken }).then((user) => {
-      this.setState({ userId: user._id });
-      post("/api/initsocket", { socketid: socket.id });
-    });
-  }; */
-
-  /* handleLogout = () => {
-    this.setState({ userId: undefined });
-    post("/api/logout");
-  }; */
-  //in render, passed in to skeleton:
-  /*        ßhandleLogin={this.handleLogin}
-            handleLogout={this.handleLogout}
-            userId={this.state.userId}
- */
   render() {
     return (
       <>
         <Router>
           <Home
-            path="/"
-            
+            path="/"  
+          />
+          <About
+          path="/about"
           />
           <NotFound default />
         </Router>
