@@ -6,6 +6,7 @@ import About from "./pages/About.js"
 import Resume from "./pages/Resume.js";
 import Projects from "./pages/Projects.js";
 import Contact from "./pages/Contact.js";
+import NavBar from "./modules/NavBar.js";
 
 import "../utilities.css";
 
@@ -37,6 +38,8 @@ class App extends Component {
   render() {
     return (
       <>
+      <NavBar 
+      />
         <Router>
           <Home
             path="/"  
