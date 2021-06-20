@@ -6,7 +6,7 @@ import About from "./pages/About.js"
 import Resume from "./pages/Resume.js";
 import Projects from "./pages/Projects.js";
 import Contact from "./pages/Contact.js";
-import NavBar from "./modules/NavBar.js";
+import SideBar from "./modules/SideBar.js";
 
 import "../utilities.css";
 import "../components/modules/SideBar.css"
@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <>
-      <NavBar 
+      <SideBar 
       />
       <div className="main">
         <Router>
