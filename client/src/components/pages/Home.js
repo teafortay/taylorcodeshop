@@ -19,6 +19,7 @@ class Home extends Component {
       <>
         
         <h1>TAYLOR <br></br>SHAW</h1>
+        <div className="u-textCenter">hello</div>
         <h2> What we provide in this skeleton</h2>
         <ul>
           <li>Google Auth (Skeleton.js & auth.js)</li>

@@ -10,10 +10,12 @@ class NavBar extends Component {
     super(props);
   }
 
+  //somehow justifyCenter makes it a new line
   render() {
     return (
       <nav className="NavBar-container">
         <div className="NavBar-title u-inlineBlock">TAYLOR SHAW</div>
+        <div className =".u-textCenter">
         <div className="NavBar-linkContainer u-inlineBlock">
           <Link to="/" className="NavBar-link">
             Home
@@ -30,7 +32,7 @@ class NavBar extends Component {
           <Link to="/contact" className="NavBar-link">
             Contact
           </Link>
-          
+          </div>  
         </div>
       </nav>
     );

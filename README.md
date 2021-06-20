@@ -2,11 +2,6 @@ source code for my personal website.
 
 find the site at: taylorcodeshop.com
 
-what I want to accomplish tomorow:
-0. refactor Home to About
-1. make nav bar (copy MITopoly)
-2. populate with links- see planner, week of 7/13 : About, resume, projects, contact
-3. make dummy pages at each link
 
 Next Day:
 1. write about page, link to taylorisperfect

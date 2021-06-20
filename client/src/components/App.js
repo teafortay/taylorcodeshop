@@ -40,6 +40,7 @@ class App extends Component {
       <>
       <NavBar 
       />
+      
         <Router>
           <Home
             path="/"  
