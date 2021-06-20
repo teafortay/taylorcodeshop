@@ -9,6 +9,7 @@ import Contact from "./pages/Contact.js";
 import NavBar from "./modules/NavBar.js";
 
 import "../utilities.css";
+import "../components/modules/SideBar.css"
 
 //import { socket } from "../client-socket.js";
 
@@ -27,12 +28,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-/*     get("/api/whoami").then((user) => {
-      if (user._id) {
-        // they are registed in the database, and currently logged in.
-        this.setState({ userId: user._id });
-      }
-    }); */
+
   }
 
   render() {
@@ -40,7 +36,7 @@ class App extends Component {
       <>
       <NavBar 
       />
-      
+      <div className="main">
         <Router>
           <Home
             path="/"  
@@ -59,6 +55,7 @@ class App extends Component {
           />
           <NotFound default />
         </Router>
+        </div>
       </>
     );
   }
