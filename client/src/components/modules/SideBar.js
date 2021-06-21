@@ -22,7 +22,7 @@ class SideBar extends Component {
         */
         
       <div className="SideNav">
-        <div className="u-inlineBlock">TAYLOR SHAW</div>
+        <div className="SideNav-title">TAYLOR SHAW</div>
         
         <div>
           <Link to="/" className="SideNav-a">
