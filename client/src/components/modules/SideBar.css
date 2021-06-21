@@ -1,3 +1,7 @@
+:root{
+  --pink: #fe60bf;
+}
+
 .SideNav {
   height: 100%;
     width: 140px;
@@ -22,6 +26,10 @@
     color: #f1f1f1;
   }
 
+  .SideNav-a:active{
+    color:var(--pink);
+  }
+
   .SideNav-title {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -32,10 +40,10 @@
   }
 
   .SideNav-pretitle {
-    padding: 16px 8px 6px 6px;
+    padding: 16px 8px 6px 8px;
     text-decoration: none;
     font-size: 16px;
-    color: #fe60bf;
+    color: var(--pink);
     display: block;
   }
   

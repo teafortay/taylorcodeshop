@@ -26,7 +26,7 @@ class About extends Component {
                I suffered an out-of-hospital cardiac arrest while jogging with my 
                roomate. As a result, I aquired an anoxic brain injury. I was in
                a coma at MGH for about a month. Obviously, I had to be withdrawn from school.
-               You can read more about my injury and recovery <a href="taylorisperfect.org">here</a>.
+               You can read more about my injury and recovery <a href="http://taylorisperfect.org/">here</a>.
                I have since recovered. However, my skills are not fully back
                to where they were pre injury. I continue to improve every day.
              </p>

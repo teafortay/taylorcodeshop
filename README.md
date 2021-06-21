@@ -10,6 +10,6 @@ Next Day:
 
 Next Day:
 1. make sure taylorcodeshop.com/theRightDvorak goes to proper page
-2. 
+2. figure out how to make links white when on page, in sidebar
 3. make favicon
 4. publish?

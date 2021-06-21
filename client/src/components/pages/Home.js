@@ -18,7 +18,7 @@ class Home extends Component {
     return (
       <>
         
-        <h1>Welcome to Taylor Shaww's personal website</h1>
+        <h1>Welcome to Taylor Shaw's personal website</h1>
       <h2>This is where I blog about what's happennng in my code shop.</h2>
         <h2> Please explore!</h2>
         <ul>
