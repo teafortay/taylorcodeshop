@@ -10,6 +10,7 @@ Next Day:
 4. write contact page
 
 Next Day:
-1. make sure taylorelenacodeshop.com/theRightDvorak goes to proper page
+1. make sure taylorcodeshop.com/theRightDvorak goes to proper page
 2. reformat nav bar
-3. publish?
+3. make favicon
+4. publish?
