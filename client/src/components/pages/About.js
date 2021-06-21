@@ -18,7 +18,7 @@ class About extends Component {
       return (
         <>
           
-          <h1>TAYLOR <br></br>SHAW</h1>
+          <h1>TAYLOR SHAW</h1>
           <h2> About Page</h2>
           </>
     );

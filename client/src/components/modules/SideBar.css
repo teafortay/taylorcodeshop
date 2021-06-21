@@ -1,6 +1,6 @@
 .SideNav {
   height: 100%;
-    width: 160px;
+    width: 140px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -25,13 +25,22 @@
   .SideNav-title {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
+    text-align: left;
     font-size: 28px;
     color: #fff;
     display: block;
   }
+
+  .SideNav-pretitle {
+    padding: 16px 8px 6px 6px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fe60bf;
+    display: block;
+  }
   
   .main {
-    margin-left: 160px; /* Same width as the sidebar + left position in px */
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
