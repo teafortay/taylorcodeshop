@@ -22,7 +22,7 @@ class SideBar extends Component {
         */
         
       <div className="SideNav">
-        <div className="SideNav-pretitle">from the desk of:</div>
+        <div className="SideNav-pretitle">from the desk of</div>
         <div className="SideNav-title">TAYLOR SHAW</div>
         
         <div>
