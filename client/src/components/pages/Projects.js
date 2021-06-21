@@ -17,9 +17,16 @@ class Projects extends Component {
     render() {
       return (
         <>
-          
-          <h1>TAYLOR <br></br>SHAW</h1>
-          <h2> Projects Page</h2>
+          <h3> Current projects:</h3>
+          <ul>
+          <li>this website!</li>
+          <li>The Right Dvorak</li>
+        </ul>
+        <h3>Previous projects:</h3>
+        <ul>
+          <li>MITopoly</li>
+          <li>Xplain my Xray</li>
+        </ul>
           </>
     );
   }
