@@ -20,6 +20,9 @@ class Projects extends Component {
           <h2> Current projects:</h2>
           <ul>
           <li className="Text-medfont">this website!</li>
+          <p>
+            - View the github <a href="https://github.com/teafortay/taylorcodeshop"> repo</a>.
+          </p>
           <li className="Text-medfont">The Right Dvorak</li>
           <p>
             I use the Dvorak-Right-Handed keyboard, instead of the QWERTY
@@ -32,8 +35,10 @@ class Projects extends Component {
              I plan to release TheRightDvorak 2.0, the second version- with totally 
              different 
              architecture this summer/ fall.
-             View the github <a href="https://github.com/teafortay/tayboard">repo</a>, or 
-             download the <a>app</a>.
+             <br></br>
+             - View the github <a href="https://github.com/teafortay/tayboard">repo</a>.
+             <br></br>
+             - Download the <a href="https://apps.apple.com/us/app/the-right-dvorak/id1527312974">app</a>.
           </p>
         </ul>
         <h2>Previous projects:</h2>
@@ -44,9 +49,13 @@ class Projects extends Component {
             play a monopoly-like game. The class met over January 2021.
             I learned how to build websites using HTML, CSS, Javascript,
             and React for the front end. For the back end, we used Express.js,
-            Mongoose, and MongoDB.We connected front and back wwith sockets.
-            Link to the github 
-            <a href="https://github.com/teafortay/webLabProj"> repo</a>. Link to the 
+            Mongoose, and MongoDB.We leveraged Google Login/ Logout for account verification. 
+            We connected front and back wwith sockets.
+            <br></br>
+            - View the github 
+            <a href="https://github.com/teafortay/webLabProj"> repo</a>. 
+            <br></br>
+            - Checkout the 
             <a href="https://boardwithfriends.herokuapp.com"> website</a>.
           </p>
           <li className="Text-medfont">Xplain my Xray</li>
@@ -54,7 +63,9 @@ class Projects extends Component {
             For another class (6.UAT), I designed and built a mock-up of an
              iOS app. The assignment was to propose a technical project.
               We proposed an iOS app for medical applications.
-              I demoed a prototype. Link to the github 
+              I demoed a prototype. 
+              <br></br>
+              - View the github 
               <a href="https://github.com/teafortay/proposalTalk"> repo</a>. 
           </p>
         </ul>

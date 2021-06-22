@@ -6,8 +6,7 @@ find the site at: taylorcodeshop.com
 Next Day:
 1. fix/ edit About and Home and Projects
 2. put pdf of resume, embed jpg?
-3. projects page- figure out how to link to app store.
-4. put fancy link stuff in Home.css
+4. put fancy link stuff in Home.css to format about/ projects
 
 Next Day:
 1. make sure taylorcodeshop.com/theRightDvorak goes to proper page
