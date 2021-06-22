@@ -4,7 +4,8 @@ find the site at: taylorcodeshop.com
 
 
 Next Day:
-2. copy Dad resume page, or just put pdf
+1. fix About and Home
+2. put pdf of resume, embede
 3. write projects page, 3 projects, 3 repos- figure out how to link to app store.
 4. put fancy link stuff in Home.css
 

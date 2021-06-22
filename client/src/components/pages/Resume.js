@@ -17,8 +17,6 @@ class Resume extends Component {
     render() {
       return (
         <>
-          
-          <h1>TAYLOR <br></br>SHAW</h1>
           <h2> Resume Page</h2>
           </>
     );

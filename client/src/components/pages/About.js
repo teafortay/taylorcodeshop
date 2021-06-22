@@ -17,7 +17,7 @@ class About extends Component {
     render() {
       return (
         <>
-          <h2> About Page</h2>
+          <h2> Taylor's Story</h2>
           <p>Hi, my name is Taylor Shaw. I'm a recent graduate from the 
             Massachusettes Institute of Technology (MIT).I graduated in June 2021
              with a B.S. Degree in Computer Science and Molecular Biology.</p>
