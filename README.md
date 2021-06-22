@@ -4,9 +4,9 @@ find the site at: taylorcodeshop.com
 
 
 Next Day:
-1. fix About and Home
-2. put pdf of resume, embede
-3. write projects page, 3 projects, 3 repos- figure out how to link to app store.
+1. fix/ edit About and Home and Projects
+2. put pdf of resume, embed jpg?
+3. projects page- figure out how to link to app store.
 4. put fancy link stuff in Home.css
 
 Next Day:
