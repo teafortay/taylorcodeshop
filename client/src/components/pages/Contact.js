@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "@reach/router";
+
 
 import "../../utilities.css";
 import "./Home.css";
@@ -17,9 +19,11 @@ class Contact extends Component {
     render() {
       return (
         <>
-          
-          <h1>TAYLOR <br></br>SHAW</h1>
-          <h2> Contact Page</h2>
+          <h2> Contact</h2>
+          <h4>cell: 310.seven.three.three.9232</h4>
+          <h4>email: tay[AT]taylorcodeshop.com</h4>
+          <h4>github: <a href="https://github.com/teafortay">teafortay</a></h4>
+          <h4><a href="https://www.linkedin.com/in/taylor-shaw-a4864a7b/">LinkedIn</a></h4>
           </>
     );
   }
