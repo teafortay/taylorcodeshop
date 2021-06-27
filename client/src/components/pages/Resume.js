@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "@reach/router";
+
 
 import "../../utilities.css";
 import "./Home.css";
@@ -18,6 +20,7 @@ class Resume extends Component {
       return (
         <>
           <h2> Resume Page</h2>
+          <Link to="resume6-26-21.pdf">click here for resume</Link>
           </>
     );
   }
