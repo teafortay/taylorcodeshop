@@ -20,7 +20,7 @@ class Resume extends Component {
       return (
         <>
           <h2> Resume Page</h2>
-          <a href="/resume7-5-21.pdf">click here for resume</a>
+          <a href="/resume7-6-21.pdf">click here for resume</a>
           </>
     );
   }
