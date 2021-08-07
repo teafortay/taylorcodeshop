@@ -24,6 +24,7 @@ class Contact extends Component {
           <h4>email: tay[AT]taylorcodeshop.com</h4>
           <h4>github: <a href="https://github.com/teafortay">teafortay</a></h4>
           <h4><a href="https://www.linkedin.com/in/taylor-shaw-a4864a7b/">LinkedIn</a></h4>
+          <h4><a href="https://limeconnect-csm.symplicity.com/profiles/taylor.shaw">Lime Connect</a>, The Lime Network</h4>
           <h4><a href="https://www.figma.com/files/user/689237763430919796?fuid=689237763430919796">Figma</a></h4>
           </>
     );
