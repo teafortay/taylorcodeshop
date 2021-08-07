@@ -18,27 +18,45 @@ class About extends Component {
       return (
         <>
           <h2> Taylor's Story</h2>
-          <p>Hi, my name is Taylor Shaw. I'm a recent graduate from the 
-            Massachusettes Institute of Technology (MIT).I graduated in June 2021
-             with a B.S. Degree in Computer Science and Molecular Biology.</p>
+          <p>
+            I'm a recent graduate from 
+            Massachusettes Institute of Technology (MIT). Since graduating in June 2021
+             with a B.S. in Computer Science and Molecular Biology, I've been working on my keyboard app. 
+             Visit the Projects page to learn more about the RightDvorak keyboard app.
+             </p>
 
-             <p>I started my MIT career in 2012. While I was a sophomore, in 2014,
-               I suffered an out-of-hospital cardiac arrest while jogging with my 
-               roomate. As a result, I aquired an anoxic brain injury. I was in
-               a coma at MGH for about a month. Obviously, I had to be withdrawn from school.
-               You can read more about my injury and recovery <a href="http://taylorisperfect.org/">here</a>.
-               I have since recovered. However, my skills are not fully back
-               to where they were pre injury. I continue to improve every day.
+             <p>
+               I started my MIT career in 2012, fresh out of high school. While jogging with my roomate in 
+               the Spring of 2014, when I was a sophomore, 
+               I suffered an out-of-hospital cardiac arrest. As a result, I aquired an anoxic brain injury. 
+               (This means that my brain was damaged due to lack of oxygen- because my heart stopped.)
+               After spending about a month in a coma at Massachusettes General Hospital,
+                I was transfered to Craig Rehabilitation Hospital in Colorado. While there, I relearned how to 
+                speak and eat, and began relearning how to walk.
+               You can read more about my journey and recovery <a href="http://taylorisperfect.org/">here</a>.
+               </p>
+
+               <p>
+               Obviously, during this time I had to be withdrawn from school.
+               I have since relearned how to walk, and regained countless other skills. 
+               My injury left me with deficits in both vision and motor control.
+                However, I continue to improve every day.
              </p>
 
              <p>
                I fully returned to MIT in 2017. Since then, I have been 
-               working hard to complete my degree. I finally finished it this June!
+               working hard to complete my degree, which is in Computer Science and Molecularr Biology. 
+               Before my injury, I had extensive experience in multiple biology labs, where I worked
+                throughout high school 
+               and my first three semesters of college. After my injury, I can no longer work in a wet lab.
+                However, my first passion was biology and I couldn't bear to cut it from my life. I enjoyed
+                 my biology coursework at MIT, and 
+                I finally finished it this June!
              </p>
 
              <p>
-               I enjoy contemporary art and coffee shops. I love exploring the city!
-               Also, I have composting worms.
+               I enjoy contemporary art and discovering quaint, cozy coffee shops. I love exploring the city!
+               I also keep composting worms.
              </p>
           </>
     );
