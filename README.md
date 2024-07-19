@@ -1,4 +1,4 @@
-source code for my personal website.
+source code for my personal website. 
 
 find the site at: taylorcodeshop.com
 
