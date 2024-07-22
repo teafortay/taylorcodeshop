@@ -17,10 +17,11 @@ class Resume extends Component {
     }
   
     render() {
+
       return (
         <>
           <h2> Resume Page</h2>
-          <a href="/TaylorShaw copy.pdf">click here for resume</a>
+          <a href="/Taylor-Shaw.pdf">click here for resume</a>
           </>
     );
   }
