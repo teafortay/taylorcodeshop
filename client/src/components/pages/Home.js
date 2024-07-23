@@ -19,7 +19,7 @@ class Home extends Component {
     return (
       <>
         
-        <h1>Welcome to Taylor Shaw's personal website</h1>
+        <h1>Welcome to my personal website</h1>
       <h2>This is where I blog about what's happening in my code shop.</h2>
        
         <img src={logo} alt="Logo image of a storefront with a large capital T. The T is reminiscent of the Xcode logo." />
