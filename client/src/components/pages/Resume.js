@@ -21,7 +21,7 @@ class Resume extends Component {
       return (
         <>
           <h2> My Resume</h2>
-          <a href="/Taylor-Shaw.pdf">click here for resume</a>
+          <a href="/Taylor-Shaw.pdf">click here to peruse my resume</a>
           </>
     );
   }

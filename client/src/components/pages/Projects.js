@@ -19,22 +19,26 @@ class Projects extends Component {
         <>
           <h2> Current projects:</h2>
           <ul>
-          <li className="Text-medfont">this website!</li>
+
+          <li className="Text-medfont">This Website!</li>
           <p>
             - View the github <a href="https://github.com/teafortay/taylorcodeshop"> repo</a>.
+          </p>
+          <li className="Text-medfont">Various iOS Apps</li>
+          <p>
+            I have a couple iOS app products in the works. I'm using The Composable Architecture (TCA) framework, 
+            and Firebase for authentication and database management. These projects are in private github repos.
           </p>
           <li className="Text-medfont">The Right Dvorak</li>
           <p>
             I use the Dvorak-Right-Handed keyboard, instead of the QWERTY
              keyboard layout. TheRightDvorak is an iOS app that allows me to use the 
              Dvorak-Right-Handed 
-             keyboard on my iPad and iPhone. I wrote the app in swift over the 
+             keyboard on my iPad and iPhone. I wrote the app in swift, using UIKit, over the 
              course of 2 years. This was my first iOS app!
              The app launched to the AppS tore in 
              August 2020. 
-             I plan to release TheRightDvorak 2.0, the second version- with totally 
-             different 
-             architecture this summer/ fall.
+             I continue to release updates and make improvements. In my latest update, I added sound and haptics.
              <br></br>
              - View the github <a href="https://github.com/teafortay/tayboard">repo</a>.
              <br></br>

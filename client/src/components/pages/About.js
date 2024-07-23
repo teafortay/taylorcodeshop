@@ -19,9 +19,9 @@ class About extends Component {
         <>
           <h2> Taylor's Story</h2>
           <p>
-            I'm a recent graduate from 
-            Massachusetts  Institute of Technology (MIT). Since graduating in June 2021
-             with a B.S. in Computer Science and Molecular Biology, I've been working on my keyboard app. 
+            I graduated from 
+            Massachusetts  Institute of Technology (MIT) in 2021
+             with a B.S. in Computer Science and Molecular Biology. In my free time, I work on a number of iOS app products, including my keyboard app. 
              Visit the Projects page to learn more about the RightDvorak keyboard app.
           </p>
 
@@ -56,7 +56,7 @@ class About extends Component {
 
           <p>
                I enjoy contemporary art. My favorite style is pop surrealism. I love exploring the city and discovering quaint, cozy coffee shops.
-               I also keep composting worms.
+               Lately, I've been enjoying walks in Harvard's Arnold Arboretum.
           </p>
           </>
     );
